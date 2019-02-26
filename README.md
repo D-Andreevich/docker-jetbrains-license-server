@@ -13,26 +13,21 @@ Educative test of my local license server
 Clone
 
 ```
-git clone https://github.com/D-Andreevich/jet
+git clone https://github.com/D-Andreevich/docker-jetbrains-license-server.git
 ```
 
 Inside
 
 ```
 cd docker-jetbrains-license-server
-```
 
-Build
+copy authtoken_ngrok.example
 
-```
-docker build . -t docker-jetbrains-license-server
-``` 
+get authtoken in https://dashboard.ngrok.com/auth
 
+write key ngrok in authtoken_ngrok
 
-Run
-
-```
-docker run --rm -d -p 4040:4040 --name my-license docker-jetbrains-license-server
+sh run.sh
 ```
 
 Get Container IP

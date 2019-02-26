@@ -1,0 +1,28 @@
+version: '2'
+
+services:
+
+### jetbrains-license-server Container #########################################
+
+    jetbrains-license-server:
+      build:
+        context: ./data    
+      ports:
+        - "4040:4040"
+      networks:
+        - frontend
+        - backend
+
+### Networks Setup ############################################
+
+networks:
+  frontend:
+    driver: "bridge"
+  backend:
+    driver: "bridge"
+
+### Volumes Setup #############################################
+
+volumes:
+  jetbrains-license-server:
+    driver: "local"

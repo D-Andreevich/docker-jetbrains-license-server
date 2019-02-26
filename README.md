@@ -13,7 +13,7 @@ Educative test of my local license server
 Clone
 
 ```
-git clone https://github.com/humbertodias/docker-jetbrains-license-server
+git clone https://github.com/D-Andreevich/jet
 ```
 
 Inside

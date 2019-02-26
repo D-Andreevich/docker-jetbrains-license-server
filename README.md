@@ -25,7 +25,7 @@ copy authtoken_ngrok.example
 ```
 Get authtoken
 
-get [authtoken](https://dashboard.ngrok.com/auth) 
+* get [authtoken](https://dashboard.ngrok.com/auth) 
 
 Run
 ```

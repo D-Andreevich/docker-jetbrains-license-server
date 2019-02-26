@@ -23,7 +23,7 @@ cd docker-jetbrains-license-server
 
 copy authtoken_ngrok.example
 
-get authtoken in https://dashboard.ngrok.com/auth
+get [authtoken](https://dashboard.ngrok.com/auth) 
 
 write key ngrok in authtoken_ngrok
 

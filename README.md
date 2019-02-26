@@ -22,9 +22,9 @@ Inside
 cd docker-jetbrains-license-server
 
 copy authtoken_ngrok.example
-
+```
 get [authtoken](https://dashboard.ngrok.com/auth) 
-
+```
 write key ngrok in authtoken_ngrok
 
 sh run.sh
